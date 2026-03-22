@@ -37,7 +37,7 @@ _There aren't any yet, but..._
 
 ## Experience:
 
-I have very little experience in JS and Frontend development. She worked in a team within the university
+I have very little experience in JS and Frontend development. Worked in a team within the university
 
 ## Education:
 
