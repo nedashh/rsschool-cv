@@ -56,14 +56,19 @@ body {
 }
 
 .left .social-links {
-    display: flex;
-    gap: 29%;
-    padding: 0;
-    margin-top: 50px;
+  display: flex;
+  gap: 29%;
+  padding: 0;
+  margin-top: 50px;
 }
 
 .left #contacts ul:first-of-type li {
-    margin-bottom: 12px;
+  margin-bottom: 12px;
+}
+
+.left section p {
+  margin-bottom: 15px;
+  line-height: 1.5;
 }
 
 .right .skill {
@@ -153,28 +158,28 @@ body {
 }
 
 section pre {
-    color: black;
-    padding: 15px;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 14px;
-    line-height: 1.5;
-    border-left: 3px solid black;
+  color: black;
+  padding: 15px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 14px;
+  line-height: 1.5;
+  border-left: 3px solid black;
 }
 
 section pre code {
-    color: inherit;
-    font-family: inherit;
-    font-size: inherit;
-    line-height: inherit;
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
 }
 
 #languages ul {
-    border-left: 2.5px solid black;
+  border-left: 2.5px solid black;
 }
 
 #languages li {
-    margin-bottom: 10px;
-    padding-left: 12px;
+  margin-bottom: 10px;
+  padding-left: 12px;
 }
 
 .footer {
