@@ -55,6 +55,17 @@ body {
   text-decoration: underline;
 }
 
+.left .social-links {
+    display: flex;
+    gap: 29%;
+    padding: 0;
+    margin-top: 50px;
+}
+
+.left #contacts ul:first-of-type li {
+    margin-bottom: 12px;
+}
+
 .right .skill {
   display: flex;
   align-items: center;
