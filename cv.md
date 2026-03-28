@@ -6,6 +6,8 @@
 
 **E-mail:** gghtryhrrg@gmail.com
 
+**Discord:** [@endofetern1ty](https://discord.com/users/452352382320377878)
+
 **GitHub:** [@nedashh](https://github.com/nedashh)
 
 **Telegram:** [@endofetern1ty](https://t.me/endofetern1ty)
@@ -18,7 +20,7 @@ Programming didn't come into my life right away, I was more attracted to literat
 
 I'm quite a creative person: I love it when I create something. I really like designing website layouts: arranging elements and blocks so that they are both conveniently and beautifully arranged. But I would like to combine this with logic. This explains why I want to learn frontend development.
 
-At the moment, I am very motivated to study and I believe that my desire to learn will bear fruit for me.
+At the moment, I am very motivated to study and I believe that my desire to learn will pay off.
 
 ## Skills:
 
@@ -32,8 +34,25 @@ At the moment, I am very motivated to study and I believe that my desire to lear
 
 ## Code example:
 
-_There aren't any yet, but..._
-`print('Hello, RS School!')`
+_Task: Write a Python program to enter the names and phone numbers of 10 of your friends, save them in a dictionary, and output the phone number by a given name._
+
+```python
+print("ex7")
+dict = {}
+for i in range(int(input("Enter the number of names you enter: "))):
+    val, key = input().split()
+    if key in dict:
+        dict[key].append(val)
+    else:
+        dict[key] = [val]
+
+for i in range(int(input("Enter the number of requests: "))):
+    key = input()
+    if key in dict:
+        print(*dict[key])
+    else:
+        print('There is no such person in the phone book')
+```
 
 ## Experience:
 
