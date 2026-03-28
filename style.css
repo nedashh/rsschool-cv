@@ -2,7 +2,7 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   background-color: #ffffff;
-  color: black;
+  color: #000;
 }
 
 .header {
@@ -21,7 +21,7 @@ body {
 
 .nav a {
   text-decoration: none;
-  color: black;
+  color: #000;
   font-size: 14px;
 }
 
@@ -34,13 +34,13 @@ body {
 
 .right {
   width: 60%;
-  padding: 0px 50px 50px 50px;
+  padding: 0 50px 50px 50px;
 }
 
 .left {
   width: 40%;
   padding: 50px;
-  background: black;
+  background: #000;
   color: #fff;
 }
 
@@ -92,11 +92,11 @@ body {
 .right .box {
   width: 14px;
   height: 14px;
-  border: 1px solid black;
+  border: 1px solid #000;
 }
 
 .right .filled {
-  background-color: black;
+  background-color: #000;
 }
 
 #projects ul {
@@ -106,7 +106,7 @@ body {
 }
 
 #projects li {
-  background-color: black;
+  background-color: #000;
   color: #fff;
   width: 300px;
   height: 120px;
@@ -141,7 +141,7 @@ body {
 .education-list li {
   margin-bottom: 20px;
   padding-left: 12px;
-  border-left: 2.5px solid black;
+  border-left: 2.5px solid #000;
 }
 
 .education-list strong {
@@ -159,12 +159,12 @@ body {
 }
 
 section pre {
-  color: black;
+  color: #000;
   padding: 15px;
   font-family: "Courier New", Courier, monospace;
   font-size: 14px;
   line-height: 1.5;
-  border-left: 3px solid black;
+  border-left: 3px solid #000;
 }
 
 section pre code {
@@ -175,7 +175,7 @@ section pre code {
 }
 
 #languages ul {
-  border-left: 2.5px solid black;
+  border-left: 2.5px solid #000;
 }
 
 #languages li {
@@ -205,7 +205,7 @@ h1 {
 h2 {
   font-size: 18px;
   margin-top: 45px;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #000;
 }
 
 ul {
@@ -214,6 +214,6 @@ ul {
 }
 
 a {
-  color: black;
+  color: #000;
   text-decoration: none;
 }
