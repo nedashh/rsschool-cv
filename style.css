@@ -83,35 +83,37 @@ body {
 }
 
 #projects ul {
-    display: flex;
-    gap: 20px;
-    padding: 0;
-    list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
 }
 
 #projects li {
-    background-color: black;
-    color: #fff;
-    width: 300px;
-    height: 120px; 
-    padding: 20px;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  background-color: black;
+  color: #fff;
+  width: 300px;
+  height: 120px;
+  padding: 50px 20px 20px 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 #projects li a {
-    color: #fff;
-    font-weight: bold;
-    text-decoration: underline;
-    font-size: 16px;
+  color: #fff;
+  font-size: 16px;
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 30px;
 }
 
 #projects li p {
-    margin-top: 8px;
-    font-size: 14px;
-    color: #ddd;
+  margin: 0;
+  font-size: 14px;
+  color: #fff;
 }
 
 .education-list {
