@@ -2,7 +2,7 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   background-color: #ffffff;
-  color: #000;
+  color: black;
 }
 
 .header {
@@ -21,7 +21,7 @@ body {
 
 .nav a {
   text-decoration: none;
-  color: #000;
+  color: black;
   font-size: 14px;
 }
 
@@ -29,7 +29,7 @@ body {
   max-width: 1250px;
   margin: 0 auto;
   display: flex;
-  background: #ffffff;
+  background: #fff;
 }
 
 .right {
@@ -40,7 +40,7 @@ body {
 .left {
   width: 40%;
   padding: 50px;
-  background: #000;
+  background: black;
   color: #fff;
 }
 
@@ -53,6 +53,33 @@ body {
 .left a {
   color: #fff;
   text-decoration: underline;
+}
+
+.right .skill {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+.right .skill-name {
+    min-width: 200px;
+    font-size: 14px;
+}
+
+.right .boxes {
+    display: flex;
+    gap: 5px;
+}
+
+.right .box {
+    width: 14px;
+    height: 14px;
+    border: 1px solid black;
+}
+
+.right .filled {
+    background-color: black;
 }
 
 .footer {
@@ -86,6 +113,6 @@ ul {
 }
 
 a {
-  color: #000;
+  color: black;
   text-decoration: none;
 }
