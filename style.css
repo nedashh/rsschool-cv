@@ -56,30 +56,55 @@ body {
 }
 
 .right .skill {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
 }
 
 .right .skill-name {
-    min-width: 200px;
-    font-size: 14px;
+  min-width: 200px;
+  font-size: 14px;
 }
 
 .right .boxes {
-    display: flex;
-    gap: 5px;
+  display: flex;
+  gap: 5px;
 }
 
 .right .box {
-    width: 14px;
-    height: 14px;
-    border: 1px solid black;
+  width: 14px;
+  height: 14px;
+  border: 1px solid black;
 }
 
 .right .filled {
-    background-color: black;
+  background-color: black;
+}
+
+.education-list {
+  list-style: none;
+  padding: 0;
+}
+
+.education-list li {
+  margin-bottom: 20px;
+  padding-left: 12px;
+  border-left: 2.5px solid black;
+}
+
+.education-list strong {
+  font-size: 16px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.sub-list {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 5px;
+  color: #4c4a4a;
+  font-size: 14px;
 }
 
 .footer {
