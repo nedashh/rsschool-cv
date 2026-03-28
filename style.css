@@ -149,11 +149,21 @@ section pre {
     line-height: 1.5;
     border-left: 3px solid black;
 }
+
 section pre code {
     color: inherit;
     font-family: inherit;
     font-size: inherit;
     line-height: inherit;
+}
+
+#languages ul {
+    border-left: 2.5px solid black;
+}
+
+#languages li {
+    margin-bottom: 10px;
+    padding-left: 12px;
 }
 
 .footer {
